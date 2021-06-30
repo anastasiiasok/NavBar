@@ -18,3 +18,26 @@ body {
   background-color: #333;
   color: white;
 }
+.brand-title {
+  font-size: 25px;
+  margin: 20px;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* so links align now */
+}
+
+.navbar-links li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  /* removed all underline */
+  color: white;
+  padding: 10px;
+  display: block;
+}
