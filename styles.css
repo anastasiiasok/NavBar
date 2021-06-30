@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+/* Defines how the width and height of an element are calculated: should they include padding and borders, or not  */
+
+body {
+  margin: 0;
+  padding: 0;
+  /* removed all margin and padding */
+}
+
+.navbar {
+  display: flex;
+  /* to line up side by side  */
+  justify-content: space-between;
+  align-items: center;
+  /* so that our links since they small will align perfect*/
+  background-color: #333;
+  color: white;
+}
